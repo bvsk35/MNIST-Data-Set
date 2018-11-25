@@ -1,7 +1,8 @@
 # MNIST-Data-Set
 MNIST Digit Data Set Classification using Backpropagation
 <pre>
-Author: Sameer Kumar
+📜
+Author: Sameer Kumar 🐱‍💻
 Date: 24/10/2018
 
 This file trains Neural Network for Digit Classifications of MNIST Using BackPropagation
@@ -39,4 +40,5 @@ Note: This code has regularization has incorporated in it. But Hyperparameter se
  7 - Due to the Cross Entropy function the traning set accuracy will jump to more than 99%. 
 Note: Code requires optimization to decrease execution time. 
 Note: Set alpha = 0, beta = 0.9, eta = 5
+Note: I have also uploaded results for reference. 📈👀
 <pre>
