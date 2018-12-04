@@ -22,7 +22,7 @@ Neural Architecture:
 
 This code was designed to use following Heuristics to make it efficient:
 - Scaled/Normalized the Training Set to have mean 0 and variance 1. The parameters used to normalize the Training Set
-was used to normalize Test Set. **Note**: To report accuracy on different Test Set that data must be normalized in the same way as above
+was used to normalize Test Set. **Note**: To report accuracy on different Test Set that data must be normalized in the same way as above.
 - Momentum Method was incorporated in update step. **Note**: This code has regularization has incorporated in it. But Hyperparameter search is highly necessary. So set it to zero.
 - In last layer Softmax activation function coupled with Cross Entropy loss function was used.
 - Before every epoch of training Shuffling of Training Set Elements was done.
