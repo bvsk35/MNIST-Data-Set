@@ -4,7 +4,7 @@
 This file trains Neural Network for Digit Classifications of MNIST Using BackPropagation.
 
 Neural Architecture:
-- Three Layers - 1: Input Layer 2: Hidden Layer 3: Output Layer
+- Three Layers - Input Layer (Layer 1), Hidden Layer (Layer 2) and Output Layer (Layer 3)
     - Input Layer - 784 Inputs
     - Hidden Layer - 40 Neurons Activation Function tanh
     - Output Layer - 10 Neurons Activation Function softmax
