@@ -9,9 +9,9 @@ Neural Architecture:
     - Hidden Layer - 40 Neurons with Activation Function tanh
     - Output Layer - 10 Neurons with Activation Function softmax
 - Weight (weights have bias): w(i, j) indicates weight fed to ith neuron from jth input
-    - Weights in Layer 2 (Hidden Layer) W_Layer_2 [ w(1,0).....w(1,784)
+    - Weights in Layer 2 (Hidden Layer) W_Layer_2 ( w(1,0).....w(1,784)
                                                   ...................
-                                                  w(40,0).....w(40,784)] 40x785
+                                                  w(40,0).....w(40,784)) 40x785
     - Weights in Layer 3 (Output Layer) W_Layer_3 [ w(1,0).....w(1,40)
                                                   ...................
                                                   w(10,0).....w(10,40)] 10x41
