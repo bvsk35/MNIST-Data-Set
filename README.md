@@ -1,7 +1,8 @@
 # MNIST-Data-Set
 ## MNIST Digit Data Set Classification using Backpropagation
 ##### Author & Date: Sameer Kumar, 24/10/2018
-This file trains Neural Network for Digit Classifications of MNIST Using BackPropagation
+This file trains Neural Network for Digit Classifications of MNIST Using BackPropagation.
+
 Neural Architecture:
 - Three Layers - 1: Input Layer 2: Hidden Layer 3: Output Layer
 Input Layer - 784 Inputs
