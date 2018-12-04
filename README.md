@@ -6,8 +6,8 @@ This file trains Neural Network for Digit Classifications of MNIST Using BackPro
 Neural Architecture:
 - Three Layers - Input Layer (Layer 1), Hidden Layer (Layer 2) and Output Layer (Layer 3)
     - Input Layer - 784 Inputs
-    - Hidden Layer - 40 Neurons Activation Function tanh
-    - Output Layer - 10 Neurons Activation Function softmax
+    - Hidden Layer - 40 Neurons with Activation Function tanh
+    - Output Layer - 10 Neurons with Activation Function softmax
 - Weight: w(i, j) indicates weight fed to ith neuron from jth input
 Weights in Layer 2 (Hidden Layer) W_Layer_2 [ w(1,0).....w(1,784)
                                               ...................
