@@ -8,15 +8,14 @@ Neural Architecture:
     - Input Layer - 784 Inputs
     - Hidden Layer - 40 Neurons with Activation Function tanh
     - Output Layer - 10 Neurons with Activation Function softmax
-- Weight: w(i, j) indicates weight fed to ith neuron from jth input
+- Weight (weights have bias): w(i, j) indicates weight fed to ith neuron from jth input
     - Weights in Layer 2 (Hidden Layer) W_Layer_2 [ w(1,0).....w(1,784)
                                                   ...................
                                                   w(40,0).....w(40,784)] 40x785
     - Weights in Layer 3 (Output Layer) W_Layer_3 [ w(1,0).....w(1,40)
                                                   ...................
                                                   w(10,0).....w(10,40)] 10x41
-- Energy or Loss function: Cross Entropy 
-- Weights have bias
+- Energy or Loss function is Cross Entropy .
 - Note: This network is designed to have only have two layers but can have user defined neurons in each layer.
 - Weights in Layer 2: n x (785), 784 input neurons, +1 to that to incorporate bias
 - Weights in Layer3: 10 x (n+1), 10 output neurons works well with Softmax, +1 to incorporate bias.
